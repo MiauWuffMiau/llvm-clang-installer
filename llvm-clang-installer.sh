@@ -34,8 +34,6 @@ if [ -z "$install_path" ] || [ -z "$build_path" ] || [ -z "$source_path" ]; then
 	exit 1337
 fi
 
-exit 3
-
 if [ -z "$cpu_cores" ]; then
 	cpu_cores="1"
 fi
@@ -76,13 +74,13 @@ echo ""
 
 cd "$build_path"
 
-if [ -z "$debug" ]; then
+if [ "$debug" != "true" ]; then
 	"$source_path"/llvm/configure --enable-optimized --prefix="$install_path"
 else
 	"$source_path"/llvm/configure --disable-optimized --prefix="$install_path"
 fi
 
-if [ -z "$test_debug" ]; then
+if [ "$time_debug" != "true" ]; then
 	make -j"$cpu_cores" && make -j"$cpu_cores" install
 else 
 	/usr/bin/time -v make -j"$cpu_cores" && make -j"$cpu_cores" install
