@@ -30,8 +30,8 @@ What you have to do is to append the `/bin` folder. The operating system knows w
 
 -I:
 
-    Specifies the installation path.
-    Example: '/path/to/install/dir'
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the installation path.
+&nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/install/dir'
 
 ## Dependencies
 
