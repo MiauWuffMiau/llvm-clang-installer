@@ -28,6 +28,10 @@ What you have to do is to append the `/bin` folder. The operating system knows w
 
 ## Parameters
 
+-I:
+	Specifies the installation path.
+	Example: '/path/to/install/dir'
+
 ## Dependencies
 
 This script has some dependencies, one can find in the list below:
