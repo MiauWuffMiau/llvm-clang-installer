@@ -77,4 +77,4 @@ This script has some dependencies, one can find in the list below:
 - python
 - git
 - groff
-- time (optional)
+- time (**optional**)
