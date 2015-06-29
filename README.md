@@ -33,6 +33,41 @@ What you have to do is to append the `/bin` folder. The operating system knows w
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies the installation path.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/install/dir'
 
+**-B:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the build path.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/build/dir'
+
+**-S:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the source path.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/source/dir'
+
+**-c:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the amount of CPU cores<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;the make process is allowed to use.<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;**Pay attention!**<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;This will probably result in a<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;very high load average of the host!<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Example: -c8
+
+**-d:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies whether the installation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;will be run as a debug version or not.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Example: -d
+
+**-t:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies whether the time programm<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;will take place to display additional<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;information about execution.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Example: -t
+
 ## Dependencies
 
 This script has some dependencies, one can find in the list below:
