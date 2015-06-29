@@ -31,17 +31,17 @@ What you have to do is to append the `/bin` folder. The operating system knows w
 **-I:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies the installation path.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/install/dir'
+&nbsp;&nbsp;&nbsp;&nbsp;Example: -I '/path/to/install/dir'
 
 **-B:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies the build path.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/build/dir'
+&nbsp;&nbsp;&nbsp;&nbsp;Example: -B '/path/to/build/dir'
 
 **-S:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specifies the source path.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/source/dir'
+&nbsp;&nbsp;&nbsp;&nbsp;Example: -S '/path/to/source/dir'
 
 **-c:**
 
