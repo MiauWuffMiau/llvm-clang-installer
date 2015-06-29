@@ -28,9 +28,9 @@ What you have to do is to append the `/bin` folder. The operating system knows w
 
 ## Parameters
 
--I:
+**-I:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Specifies the installation path.
+&nbsp;&nbsp;&nbsp;&nbsp;Specifies the installation path.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Example: '/path/to/install/dir'
 
 ## Dependencies
